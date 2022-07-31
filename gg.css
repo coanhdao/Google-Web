@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#main {
+    background-color: #000;
+    height: 100%;
+    
+}
+
+#header {
+    background-color: #202124;
+    height: 60px;
+    padding: 6px 6px;
+    
+
+}
+#header-1 {
+    background-color: #202124;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+#nav-label li {
+    display: inline-block;
+
+  
+}
+.describle-app{
+    position: absolute;
+    
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+
+}
+
+
+#nav-label li a{
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 24px;
+    padding-left: 15px;
+
+}
+#nav-label li a:hover{
+    text-decoration: underline;
+}
+#nav-icon li a {
+    color:#fff ;
+}
+.google-app .app-btn {
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 8px;
+}
+.google-app .app-btn:hover{
+    opacity: 1;
+    background-color: rgba(232,234,237,.08);
+    border-radius: 50%;
+}
+
+.log-in input[type="submit"] {
+    height: 36px;
+    width: 118px;
+    background-color: #8AB4F8;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #000;
+    padding: 9px 23px;
+    
+}
+.log-in input[type="submit"]:hover{
+    background: #f8fbff;
+    border-color: #cce0fc;
+    cursor: pointer;
+}
+
+/* End header */
+/* Begin label google */
+
+#label {
+    background-color: #202124;
+    height: 154px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+/* End label Google */
+
+#search-bar {
+    background-color: #202124;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+
+}
+.search-bar-btn {
+    background-color: #202124;
+    height: 44px;
+    width: 582px;
+    padding: 5px 8px 0px 14px;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid  #5f6368;
+    
+}
+.search-bar-btn:hover{
+    background-color: #303134;
+    box-shadow: 0 1px 6px 0 #171717;
+    border-color: rgba(223,225,229,0);
+}
+
+.icon-search {
+    color: #5f6368;
+    padding-right: 13px;
+    font-size: 14px;
+      
+}
+.search-bar-input{
+    height: 34px;
+    width: 433px;
+    background-color: #202124;
+    border: none;
+    color: #fff;
+    outline: none;
+
+}
+.search-bar-input:hover{
+    background-color: #303134;
+    
+
+}
+.fa-solid{
+    color: #fff;
+    font-size: 24px;
+}
+
+#languages {
+    background-color: #202124;
+    height: 245px;
+
+}
+
+#footer {
+
+}
